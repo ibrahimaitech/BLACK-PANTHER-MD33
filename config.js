@@ -18,15 +18,15 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/IBRAHIM-MD";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/cc3c025bb976c10f04e40.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "254710772666" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254710772666";
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/758549f0de2219884f387.jpg,https://telegra.ph/file/9498496b010dfb5900b80.jpg,https://telegra.ph/file/59bf80efbb6e6576b5a52.jpg,https://telegra.ph/file/ee0e191363161e88e4743.jpg" // ramadan Theme Images
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/522d399d03e2b682a6938.mp4" // ramadan Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -56,10 +56,10 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,923xxxxxxxx";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://suhail-md-vtsf.onrender.com/";
+global.scan = "https://ibrahim-tech-1-4a7321f212d3.herokuapp.com/";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ;
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "🐯ᵇˡᵃᶜᵏᵖᵃⁿᵗʰᵉʳV3" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author : process.env.PACK_AUTHER|| "ᵇˡᵃᶜᵏᵖᵃⁿᵗʰᵉʳV3",
+  packname: process.env.PACK_NAME || "🐯",
+  botname : process.env.BOT_NAME  || "𝗕𝗟𝗔𝗖𝗞-𝗣𝗔𝗡𝗧𝗛𝗘𝗥-𝗠𝗗",
+  ownername:process.env.OWNER_NAME|| "Ibrahim Adams",
 
 
   errorChat : process.env.ERROR_CHAT || "",
