@@ -35,7 +35,7 @@
       "value": "https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/522d399d03e2b682a6938.mp4"
     }, 
     "TZ": 
-      "description": "",
+      "description": "put TIME_ZONE according to your location",
       "required" :false,    
       "value": "Africa/Nairobi"
     },  
@@ -138,7 +138,7 @@
     },
     "STACK": {
       "description": "STACK NAME ",
-      "value": "",
+      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
       "required": false 
     }
   }, 
