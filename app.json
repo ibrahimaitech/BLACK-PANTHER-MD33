@@ -1,15 +1,15 @@
 {
-  "name": "gifted-md@V.2.0.0",
-  "description": "Hi there, I am Gifted Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.\n\t Incase of Any Problem Whatsapp me on: +254728782591",
+  "name": "blackpanterv3",
+  "description": "Hi there, I am Black panter Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.\n\t Incase of Any Problem Whatsapp me on: +254710772666",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-  "keywords": ["whatsappbot", "giftedMd", "Gifted Md bot", "Gifted-Md", "GiftedMdWhatsaooBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
+  "keywords": ["whatsappbot", "pantherMd", "Black Md bot", "Panter-Md", "PanterMdWhatsaooBot", "BlackWaBot","BlackpanterMD","Panther Md Whatsapp Bot","multi device"],
   "success_url": "/",
   "app_url": "/qr",
   
   "env": {
     "OWNER_NAME": {
       "description": "Bot Owner Name",    
-      "value": "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+      "value": "IBRAHIM ADAMS",
       "required" :true
     },   
     
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " Name Of Bot",
       "required" :true,    
-      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗"
+      "value": "𝗕𝗟𝗔𝗖𝗞-𝗣𝗔𝗡𝗧𝗛𝗘𝗥-𝗠𝗗"
     }, 
     "USER_IMAGES": {
       "description": "Image for Bot. You can Place several Sparated by Commas.",
       "required" :true,    
-      "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
+      "value": "https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/522d399d03e2b682a6938.mp4"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -107,7 +107,7 @@
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "required" :true,
-      "value": "254728782591"
+      "value": "254710772666"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -137,7 +137,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+      "value": "ᵇˡᵃᶜᵏᵖᵃⁿᵗʰᵉʳV3",
       "required": true 
     },
     "PACK_AUTHER": {
