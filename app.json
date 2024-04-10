@@ -1,67 +1,67 @@
 {
-  "name": "Ibrahim-md@1.2.8",
-  "description": "I am Ibrahim-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://www.youtube.com/@ibrahimmdgpt",
-  "logo": "https://telegra.ph/file/fdeb9bdbfae04a6b62dd4.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
-  "success_url": "/suhail/",
-  "app_url": "/qr/",
+  "name": "gifted-md@V.2.0.0",
+  "description": "Hi there, I am Gifted Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.\n\t Incase of Any Problem Whatsapp me on: +254728782591",
+  "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
+  "keywords": ["whatsappbot", "giftedMd", "Gifted Md bot", "Gifted-Md", "GiftedMdWhatsaooBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
+  "success_url": "/",
+  "app_url": "/qr",
   
   "env": {
     "OWNER_NAME": {
-      "description": "Name of Bot Owner",    
-      "value": "𝗠𝗥 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
+      "description": "Bot Owner Name",    
+      "value": "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
       "required" :true
     },   
-     
+    
     "WELCOME": {
-      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "description": "put 'false' or 'true' to enable & disable automatic group WELCOME ",
       "value": "false",
-      "required" :false
+      "required" :true
     },
      
     "GOODBYE": {
-      "description": "put 'false' or 'true' to enable & disable GOODBYE ",
+      "description": "put 'false' or 'true' to enable & disable automatic group GOODBYE ",
       "value": "false",
-      "required" :false
+      "required" :true
     },
     "BOT_NAME": {
-      "description": " NAME FOR BOT",
-      "required" :false,    
-      "value": "𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗪𝗔𝗕𝗢𝗧"
+      "description": " Name Of Bot",
+      "required" :true,    
+      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗"
     }, 
-    "IMAGE": {
-      "description": "Image for bot",
-      "required" :false,    
-      "value": "https://telegra.ph/file/fdeb9bdbfae04a6b62dd4.jpg"
+    "USER_IMAGES": {
+      "description": "Image for Bot. You can Place several Sparated by Commas.",
+      "required" :true,    
+      "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
-      "required" :false,    
+      "required" :true,    
       "value": "Africa/Nairobi"
     },  
     "FLUSH": {
-      "description": " Make it 'true' if bot connected but not responed (After deployement!)",
-      "required" :false,    
+      "description": " Make it 'true' if bot connected but not responding (After deployement!)",
+      "required" :true,    
       "value": "true"
     }, 
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
-      "required" :false,    
-      "value": "3"
+      "required" :true,    
+      "value": "5"
     }, 
     "READ_COMMAND": {
       "description": " Read bot cmds",
-      "required" :false,    
+      "required" :true,    
       "value": "true"
     }, 
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status", 
-      "required" :false,   
+      "required" :true,   
       "value": "false"
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "ce99ce13-91a8-4fce-a852-d3edcc2337cb",
+      "value": "",
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
@@ -70,85 +70,90 @@
     "required" :true
     }, 
     "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required" :false,
-      "value": "unavailable"
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for always online and virtual typing) | 'recording'(for always online and virtual recording audio) | 'paused' ",
+      "required" :true,
+      "value": "available"
     },
     "AUTO_READ_STATUS": {
-      "description": "Fill the value true if you want bot view your Statuses.",
-      "required" :false,
+      "description": "Fill the value true if you want bot to automatically view your Statuses.",
+      "required" :true,
       "value": "true"
-    }, 
+    },
+    "LEVEL_UP_MESSAGE": {
+      "description": "Fill the value true if you want bot to show Level Up Messages.",
+      "required" :true,
+      "value": "false"
+    },
     "MSGS_IN_LOG": {
       "description": "Fill the value true if you want to see Messages in Console.",
-      "required" :false,
+      "required" :true,
       "value": "false"
     },
     "READ_MESSAGE": {
-      "description": "Fill the value true if you want bot to read all messages.",
-      "required" :false,
+      "description": "Fill the value true if you want bot to read all messages that is auto blue ticks.",
+      "required" :true,
       "value": "false"
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
-      "required" :false
+      "value": "true",
+      "required" :true
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
+      "required" :true,
       "value": "."
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254710772666"
+      "required" :true,
+      "value": "254728782591"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
+      "required" :true,
       "value": ""
   
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
-      "value": "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",
+      "value": "",
       "required" :false
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
       "value": "3e57046161ccf9ac1f4b9e03828a5fe9",
-      "required" :false
+      "required" :true
     }, 
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
       "value": "DJwc34NaWmhXmDxEeh6YUEmm",
-      "required" :false
+      "required" :true
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "public"
+      "required" :true,
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗧𝗘𝗖𝗛",
-      "required": false 
+      "value": "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+      "required": true 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗧𝗘𝗖𝗛",
-      "required": false 
-    },
+      "value": "Whatsappbot",
+      "required": true 
+  },
     "STACK": {
       "description": "STACK NAME ",
       "value": "container | heroku-22 | 4246315815290786|01|2026|717",
       "required": false 
-    },
+    }
+  }, 
+  "addons": [{ "plan": "heroku-postgresql:basic" }],
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
-  ],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "standard-2x"
-      }
-  }
+  ]
 }
