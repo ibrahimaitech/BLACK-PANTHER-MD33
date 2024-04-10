@@ -135,13 +135,12 @@
       "description": "Put Sticker Author_Name.",
       "value": "𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗧𝗘𝗖𝗛",
       "required": false 
-    }
-  }, 
-  "addons": [
-    {
-      "plan": "heroku-postgresql:basic"
-    } 
-  ],
+    },
+    "STACK": {
+      "description": "STACK NAME ",
+      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
+      "required": false 
+    },
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
