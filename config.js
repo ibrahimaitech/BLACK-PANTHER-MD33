@@ -17,7 +17,7 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
-global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/IBRAHIM-MD";
+global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/BLACK-PANTHER-MD/tree/main";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/933e3af7492a3ad2746b9.jpg,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg" ; // SET LOGO FOR IMAGE 
