@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Bot Owner Name",    
-      "value": "IBRAHIM ADAMS",
+      "value": "Ibrahim Adams",
       "required" :true
     },   
     
@@ -32,7 +32,7 @@
     "USER_IMAGES": {
       "description": "Image for Bot. You can Place several Sparated by Commas.",
       "required" :true,    
-      "value": "https://telegra.ph/file/522d399d03e2b682a6938.mp4,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg"
+      "value": "https://telegra.ph/file/522d399d03e2b682a6938.mp4,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/b3a65285f9ed66762be0e.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -42,7 +42,7 @@
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responding (After deployement!)",
       "required" :true,    
-      "value": "true"
+      "value": "false"
     }, 
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -107,7 +107,7 @@
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "required" :true,
-      "value": "254710772666"
+      "value": "254710772666,"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
