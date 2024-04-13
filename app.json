@@ -42,7 +42,7 @@
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responding (After deployement!)",
       "required" :true,    
-      "value": "false"
+      "value": "true"
     }, 
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
