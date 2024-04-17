@@ -59,7 +59,7 @@ global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,923xxxxxxxx";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://session-id-by-ibrahim-adams-e876d9915daa.herokuapp.com/";
+global.scan = "https://ibrahim-tech-app-11dd0aa09b64.herokuapp.com/";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ;
