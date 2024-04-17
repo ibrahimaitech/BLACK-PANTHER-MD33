@@ -16,7 +16,7 @@ const _0x323b2e = _0x581a;
   }
 })(_0x43a5, 0xb38e0);
 function _0x43a5() {
-  const _0x53e15c = ['../lib', 'wagroup', '16130781eGDVHb', '../lib/suhail', '645066KAHWyZ', 'botname', '53106XmfKPz', 'cheerio', '10243440yudQQH', 'wachannel', 'send', '4OgGtMi', '4938143hOhpVZ', "To check ping", '../config', '1826620NAKEtX', "*BLACKPANTHER MD AI TALK GROUP* n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/H6KaBzAhRnw52DM93KsRy2\n\n ", '124bzrxRu', "*IBRAHIM TECH SUPPORT CHANNEL* \n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ", 'wadiscussion', 'lib_dir', '🗨️', '3774120LrfPTn', 'user'];
+  const _0x53e15c = ['../lib', 'wagroup', '16130781eGDVHb', '../lib/Suhail', '645066KAHWyZ', 'botname', '53106XmfKPz', 'cheerio', '10243440yudQQH', 'wachannel', 'send', '4OgGtMi', '4938143hOhpVZ', "To check ping", '../config', '1826620NAKEtX', "*BLACKPANTHER MD AI TALK GROUP* n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/H6KaBzAhRnw52DM93KsRy2\n\n ", '124bzrxRu', "*IBRAHIM TECH SUPPORT CHANNEL* \n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ", 'wadiscussion', 'lib_dir', '🗨️', '3774120LrfPTn', 'user'];
   _0x43a5 = function () {
     return _0x53e15c;
   };
